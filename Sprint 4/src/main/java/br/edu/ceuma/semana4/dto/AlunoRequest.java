@@ -1,0 +1,13 @@
+package br.edu.ceuma.semana4.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class AlunoRequest {
+    private String nome;
+    private int idade;
+}
